@@ -1,10 +1,14 @@
 body {
-  background-color: black;
+  background-color: #708090;
+  opacity: 300%;
+  font-family: 'DM Sans';
 }
 body div {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  font-family: 'DM Sans';
 }
 body img {
   width: 30rem;
@@ -16,26 +20,34 @@ body img {
 }
 body h1 {
   color: white;
-  margin-left: 25rem;
+  margin-top: 4rem;
+  margin-bottom: 0.1rem;
   margin-inline: auto;
+  font-size: 3rem;
 }
 body p {
   color: white;
-  margin-left: 24rem;
   margin-inline: auto;
-  margin-bottom: 2.5rem;
+  margin-bottom: 5rem;
+  font-size: 1.5rem;
 }
 body div input {
   margin-inline: auto;
   width: 27rem;
+  font-size: 1.3rem;
   text-align: center;
   padding: 2rem;
 }
 body button {
+  background-color: #9370db;
+  text-decoration-color: black;
   justify-content: center;
   margin-inline: auto;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.3rem;
   text-align: center;
-  width: 31.5rem;
+  width: 32.5rem;
   padding: 2rem;
-  margin-top: 0.3rem;
+  margin-top: 1.5rem;
+  border-radius: 4rem;
 }
