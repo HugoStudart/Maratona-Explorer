@@ -1,10 +1,22 @@
-body {
-  margin-top: 4rem;
-  background: #485052;
-  background-size: 300%;
-  opacity: 100%;
-  font-family: 'DM Sans';
+* {
+  margin: 0;
+  box-sizing: border-box;
 }
+
+body {
+  background-color: #485052;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#container {
+  margin-top: 100px;
+  width: 80%;
+  max-width: 400px;
+  margin-inline: auto;
+}
+
 body div {
   display: flex;
   flex-direction: column;
@@ -38,23 +50,38 @@ body p {
   font-family: 'DM Sans', sans-serif;
   font-size: 2rem;
 }
-input {
+input,
+button {
+  display: block;
+  width: 100%;
   text-align: center;
-  height: 4.7rem;
-  width: 34rem;
-  font-size: 1.5rem;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+input {
+  margin-bottom: 20px;
 }
 
 body button {
+  border: none;
   background-color: #9370db;
-  text-decoration-color: black;
-  justify-content: center;
-  margin-inline: auto;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 1.8rem;
-  text-align: center;
-  width: 32.5rem;
-  padding: 2rem;
-  margin-top: 1.5rem;
-  border-radius: 4rem;
+  color: white;
+  transition: filter 0.2s;
+}
+button:hover {
+  filter: brightness(1.2);
+  cursor: pointer;
+}
+#resposta {
+  margin-top: 15px;
+  transition: opacity 1s;
+}
+
+#resposta div {
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.9;
+  margin-bottom: 10px;
 }
